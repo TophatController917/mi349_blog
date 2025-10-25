@@ -1,10 +1,17 @@
 .stickynav {
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
-.stickynav div{
-    height: 200px;
-    border: 20px;
+.stickynav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.stickynav a{
+    color: white;
 }
