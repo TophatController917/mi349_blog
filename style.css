@@ -1,6 +1,12 @@
+body{
+    background-color: rgb(241, 250, 248);
+}
+
 .stickynav {
     position: sticky;
-    top: 0;
+    top: 0px;
+    margin: 0px;
+    padding-left: 10px;
     background-color: darkslategray;
     color: white;
     display: flex;
@@ -14,4 +20,108 @@
 
 .stickynav a{
     color: white;
+}
+
+.blog-post {
+    padding: 10px;
+    margin: 15px;
+    height: fit-content;
+    background-color: rgb(210, 230, 225);
+    overflow: hidden;
+}
+
+.blog-post img {
+    float: left;
+    width: 400px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.blog-post header{
+    display: flex;
+    justify-content: space-between;
+    height: min-content;
+    padding: 0px;
+    border-bottom: solid;
+    border-color: darkslategray;
+}
+
+.blog-post header h2{
+    margin: 0px;
+    margin-top: 22px;
+    padding: 0px;
+    height: min-content;
+}
+
+.blog-post header address{
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+    height: min-content;
+}
+
+.blog-post header time{
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+    height: min-content;
+}
+
+.blog-post header p{
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+    height: min-content;
+}
+
+.blog-post .post-content{
+    padding: 10px;
+}
+
+#newsletter-sign-up{
+    margin: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+#aboutPage .img-container {
+    float: left;
+}
+
+.img-container img{
+    width: 400px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.contact-form form{
+    width: 200px;
+}
+
+.contact-form form input[type=text]{
+    justify-content: left;
+    margin-right: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.contact-form form input[type=email]{
+    justify-content: left;
+    margin-right: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.contact-form #contact-select{
+    justify-content: left;
+    margin-right: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.contact-form #comments{
+    justify-content: left;
+    margin-right: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
