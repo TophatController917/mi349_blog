@@ -9,7 +9,7 @@ body{
     margin: 0px;
     padding-left: 10px;
     background-color: darkslategray;
-    color: white;
+    color: rgb(241, 250, 248);
     display: flex;
     justify-content: space-between;
 }
@@ -31,10 +31,25 @@ body{
     overflow: hidden;
 }
 
-.blog-post img {
+.blog-post .img-container {
     float: left;
     width: 400px;
     padding: 10px;
+    margin-right: 10px;
+    display: block;
+}
+
+#aboutPage .img-container{
+    width: 400px;
+    display: block;
+    padding-right: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.img-container img{
+    width: 100%;
+    padding-right: 10px;
     margin-right: 10px;
 }
 
@@ -83,16 +98,6 @@ body{
     margin: 10px;
     padding-left: 10px;
     padding-bottom: 15px;
-}
-
-#aboutPage .img-container {
-    float: left;
-}
-
-.img-container img{
-    width: 400px;
-    padding-right: 10px;
-    margin-right: 10px;
 }
 
 .contact-form form{
