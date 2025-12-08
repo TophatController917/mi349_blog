@@ -16,7 +16,7 @@ body{
 
 .stickynav ul li{
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .stickynav a{
@@ -29,22 +29,14 @@ body{
     height: fit-content;
     background-color: rgb(210, 230, 225);
     overflow: hidden;
+    display: flex;
 }
 
-.blog-post .img-container {
-    float: left;
-    width: 400px;
+.img-container {
+    min-width: 400px;
     padding: 10px;
     margin-right: 10px;
     display: block;
-}
-
-#aboutPage .img-container{
-    width: 400px;
-    display: block;
-    padding-right: 10px;
-    margin-right: 10px;
-    float: left;
 }
 
 .img-container img{
@@ -130,4 +122,193 @@ body{
     margin-right: 100%;
     margin-top: 2px;
     margin-bottom: 2px;
+}
+.text-container{
+    display: block;
+}
+
+@media screen and (max-width: 600px){
+    .blog-post{
+        display: block;
+    }
+    .img-container {
+        float: right;
+        min-width: 100px;
+        max-width: 150px;
+        min-height: 100px;
+        max-height: 125px;
+        overflow: hidden;
+        padding: 0px;
+        margin-right: 10px;
+        display: block;
+    }
+    body{
+        font-size: 60%;
+    }
+    .blog-post header{
+        display: grid;
+    }
+    .blog-post header h2{
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        height: min-content;
+    }
+    .blog-post header address{
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        height: min-content;
+    }
+    .blog-post header time{
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        height: min-content;
+    }
+    .blog-post header p{
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        height: min-content;
+    }
+}
+@media screen and (min-width: 600px){
+    .blog-post{
+        display: block;
+    }
+    .img-container {
+        float: right;
+        min-width: 125px;
+        max-width: 175px;
+        min-height: 100px;
+        padding: 0px;
+        margin-right: 10px;
+        display: block;
+    }
+    body{
+        font-size: 70%;
+    }
+    .blog-post header{
+        display: grid;
+    }
+    .blog-post header h2{
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        height: min-content;
+    }
+    .blog-post header address{
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        height: min-content;
+    }
+    .blog-post header time{
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        height: min-content;
+    }
+    .blog-post header p{
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        height: min-content;
+    }
+}
+@media screen and (min-width: 786px){
+    .blog-post{
+        display: flex;
+    }
+    .img-container {
+        float: left;
+        min-width: 175px;
+        max-width: 175px;
+        padding: 0px;
+        margin-right: 10px;
+        display: block;
+    }
+    body{
+        font-size: 75%;
+    }
+    .blog-post header{
+        display: flex;
+    }
+    .blog-post header h2{
+        margin: 0px;
+        margin-top: 22px;
+        padding: 0px;
+        height: min-content;
+    }
+    .blog-post header address{
+        margin: 0px;
+        margin-top: 30px;
+        padding: 0px;
+        height: min-content;
+    }
+    .blog-post header time{
+        margin: 0px;
+        margin-top: 30px;
+        padding: 0px;
+        height: min-content;
+    }
+    .blog-post header p{
+        margin: 0px;
+        margin-top: 30px;
+        padding: 0px;
+        height: min-content;
+    }
+}
+@media screen and (min-width: 992px){
+    .img-container {
+        float: left;
+        min-width: 225px;
+        max-width: 225px;
+        padding: 10px;
+        margin-right: 10px;
+        display: block;
+    }
+    body{
+        font-size: 85%;
+    }
+    
+}
+@media screen and (min-width: 1100px){
+    .img-container {
+        float: left;
+        min-width: 300px;
+        max-width: 300px;
+        padding: 10px;
+        margin-right: 10px;
+        display: block;
+    }
+    body{
+        font-size: 85%;
+    }
+    
+}
+@media screen and (min-width: 1300px){
+    .img-container {
+        float: left;
+        min-width: 300px;
+        max-width: 300px;
+        padding: 10px;
+        margin-right: 10px;
+        display: block;
+    }
+    body{
+        font-size: 100%;
+    }
+}
+@media screen and (min-width: 1400px){
+    .img-container {
+        float: left;
+        min-width: 400px;
+        max-width: 400px;
+        padding: 10px;
+        margin-right: 10px;
+        display: block;
+    }
+    
 }
